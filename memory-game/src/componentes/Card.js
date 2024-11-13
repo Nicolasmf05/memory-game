@@ -1,4 +1,4 @@
-function Card({item}) {
+function Card({item }) {
     return (
         <div className="card">
 
@@ -7,4 +7,3 @@ function Card({item}) {
     )
 }
 export default Card;
-
