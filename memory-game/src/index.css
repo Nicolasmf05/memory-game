@@ -25,4 +25,17 @@ h1{
   height: 700px;
   width: 700px;
   background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
 }
+
+.card{
+  background-color: seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
