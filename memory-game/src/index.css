@@ -27,6 +27,8 @@ h1{
 }
 
 .card{
+  width: 200px;
+  height: 200px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -45,11 +47,8 @@ h1{
   }
 }
 .card img{
-  max-width: 80%;
-  max-height: 80%;
   transition: transform 0.5s;
   transform: scale(0);
-  animation: 2s hideImage linear;
 }
 @keyframes hideImage{
   0%, 70%{
@@ -58,6 +57,10 @@ h1{
   100%{
     transform: scale(0);
   }
+}
+
+.cardactive{
+  max-height: fit-content;
 }
 
 .card.active{
@@ -71,4 +74,8 @@ h1{
 }
 .card.active img{
   transform: scale(1);
+}
+.card-img{
+  width: 200px;;
+  height: 200px;
 }
